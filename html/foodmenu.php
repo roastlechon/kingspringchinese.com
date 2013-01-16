@@ -65,7 +65,7 @@
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Fried Chicken Wings (8)</td>
-                    <td width="100" align="right">3.7</td>
+                    <td width="100" align="right">5.15</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">French Fries</td>
@@ -73,15 +73,15 @@
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Buffalo Wings (8) *</td>
-                    <td width="100" align="right">4.2</td>
+                    <td width="100" align="right">5.15</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Lemon Peppers Wings (8)</td>
-                    <td width="100" align="right">4.2</td>
+                    <td width="100" align="right">5.15</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Braised Wings (8)</td>
-                    <td width="100" align="right">4.2</td>
+                    <td width="100" align="right">5.15</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Fried Jumbo Shrimp (4)</td>
@@ -96,7 +96,7 @@
                     <td width="100" align="right">3.6</td>
               </tr>
         	  <tr height="19">
-        	    <td height="19" width="550">Pu Pu    Platter</td>
+        	    <td height="19" width="550">Pu Pu Platter</td>
                     <td width="100" align="right">9.95</td>
               </tr>
         	  </table><br />
@@ -855,23 +855,23 @@
         	  <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="245">10pcs</td>
-                    <td align="right" width="75">5.29</td>
+                    <td align="right" width="75">6.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">15pcs</td>
-                    <td align="right">7.99</td>
+                    <td align="right">9.35</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">20pcs</td>
-                    <td width="100" align="right">10.49</td>
+                    <td width="100" align="right">12.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">30pcs</td>
-                    <td align="right">15.69</td>
+                    <td align="right">18.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">50pcs</td>
-                    <td align="right">25.99</td>
+                    <td align="right">31.25</td>
                 </tr>
        	      </table>
         	    <br />
@@ -882,23 +882,23 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Buffalo Wings *</td>
-                    <td align="right" width="75">7.15</td>
+                    <td align="right" width="75">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Lemon Peppers Wings</td>
-                  <td width="100" align="right">7.15</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Braised Chicken Wings</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Honey BBQ Wings</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Boneless Chicken Wings</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.95</td>
                 </tr>
        	      </table>
         	    <br />
@@ -906,7 +906,7 @@
         	    <p align="center">Served with Fried Rice/Steamed Rice/Brown Rice ($1.00), Vegetable Egg Roll, and a Crab Rangoon</p>
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
-        	      <td height="20" width="245">General Tso's    Chicken *</td>
+        	      <td height="20" width="245">General Tso's Chicken *</td>
                     <td align="right" width="75">5.35</td>
                 </tr>
         	    <tr height="20">
