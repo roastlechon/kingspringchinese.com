@@ -29,7 +29,7 @@
 		    <table cellspacing="0" cellpadding="0" align="center">
         	  <tr height="20">
         	    <td width="550" height="20" >Egg Roll (2) (Pork)</td>
-                    <td align="right" width="100">2.1</td>
+                    <td align="right" width="100">2.20</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">King Spring Roll (2) (Shrimp)</td>
@@ -37,31 +37,31 @@
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Vegetable Spring Roll (2)</td>
-                    <td width="100" align="right">2.1</td>
+                    <td width="100" align="right">2.20</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Beef Sticks (4)</td>
-                    <td width="100" align="right">5</td>
+                    <td width="100" align="right">5.15</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Chicken Sticks (4)</td>
-                    <td width="100" align="right">4.55</td>
+                    <td width="100" align="right">4.95</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Boneless Spareribs (4)</td>
-                    <td width="100" align="right">6.45</td>
+                    <td width="100" align="right">6.70</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Bar-B-Q Spareribs (4)</td>
-                    <td width="100" align="right">6.45</td>
+                    <td width="100" align="right">6.95</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Crab Rangoon (6)</td>
-                    <td width="100" align="right">3.95</td>
+                    <td width="100" align="right">4.25</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Potstickers (6) (Steam/Pan Fried)</td>
-                    <td width="100" align="right">4.35</td>
+                    <td width="100" align="right">4.75</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Fried Chicken Wings (8)</td>
@@ -69,7 +69,7 @@
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">French Fries</td>
-                    <td width="100" align="right">3</td>
+                    <td width="100" align="right">3.50</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Buffalo Wings (8) *</td>
@@ -85,19 +85,19 @@
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Fried Jumbo Shrimp (4)</td>
-                    <td width="100" align="right">3.35</td>
+                    <td width="100" align="right">3.50</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Fried Wontons (6)</td>
-                    <td width="100" align="right">3.35</td>
+                    <td width="100" align="right">3.50</td>
               </tr>
         	  <tr height="20">
         	    <td width="550" height="20">Chinese Donuts (10)</td>
-                    <td width="100" align="right">3.6</td>
+                    <td width="100" align="right">3.75</td>
               </tr>
         	  <tr height="19">
         	    <td height="19" width="550">Pu Pu Platter</td>
-                    <td width="100" align="right">9.95</td>
+                    <td width="100" align="right">10.50</td>
               </tr>
         	  </table><br />
         	  <div id="soups"><h2>Soups</h2>
@@ -106,23 +106,23 @@
         	  <table cellspacing="0" cellpadding="0" align="center">
         	    <tr height="20">
         	      <td height="20" width="550">Wonton Soup</td>
-                    <td width="100"><div align="right">1.5S     2.95L</div></td>
+                    <td width="100"><div align="right">1.60S     2.95L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Hot &amp; Sour Soup *</td>
-                    <td><div align="right">1.75S  3.5L</div></td>
+                    <td><div align="right">1.85S  3.50L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Egg Drop Soup</td>
-                    <td><div align="right">1.5S  2.95L</div></td>
+                    <td><div align="right">1.60S  2.95L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Vegetable Soup</td>
-                    <td><div align="right">1.5S  2.95L</div></td>
+                    <td><div align="right">1.60S  2.95L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sizzling Rice Soup</td>
-                    <td><div align="right">2.45S  4.5L</div></td>
+                    <td><div align="right">2.45S  4.50L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Dragon Soup</td>
@@ -130,7 +130,7 @@
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken Noodle Soup</td>
-                    <td><div align="right">1.75S  3.5L</div></td>
+                    <td><div align="right">1.85S  3.50L</div></td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">House Special Soup (2)</td>
@@ -142,11 +142,11 @@
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Coconut Milk Soup</td>
-                    <td align="right">5.95</td>
+                    <td align="right">3.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Seafood Noodle Soup</td>
-                    <td align="right">6.85</td>
+                    <td align="right">6.50</td>
                 </tr>
        	      </table>
                 
@@ -157,63 +157,67 @@
         	  <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td width="550" height="20" align="left">Fresh Mushroom Beef</td>
-                    <td align="right" width="100">8.45</td>
+                    <td align="right" width="100">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Mongolian Beef</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef with Vegetables</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Broccoli Beef</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Pepper Steak</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef in Garlic Sauce *</td>
-                  <td width="100" align="right">8.45</td>
+                  <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Hunan Beef *</td>
-                  <td width="100" align="right">8.45</td>
+                  <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Szechuan Beef *</td>
-                  <td width="100" align="right">8.45</td>
+                  <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Teriyaki Beef</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="39">
         	      <td height="39" width="550">Beef with Bamboo Shoots &amp; Black Mushrooms</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Kung Pao Beef *</td>
-                  <td width="100" align="right">8.45</td>
+                  <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Moo Shu Beef</td>
-                    <td width="100" align="right">8.55</td>
+                    <td width="100" align="right">8.95</td>
+                </tr>
+                <tr height="20">
+                  <td width="550" height="20">Hawaii Beef</td>
+                    <td width="100" align="right">9.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef with String Beans</td>
-                    <td width="100" align="right">8.75</td>
+                    <td width="100" align="right">9.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef with Asparagus</td>
-                    <td width="100" align="right">8.75</td>
+                    <td width="100" align="right">9.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef with Snow Peas</td>
-                    <td width="100" align="right">8.75</td>
+                    <td width="100" align="right">9.25</td>
                 </tr>
        	      </table>
         	    <br />
@@ -223,91 +227,91 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td width="550" height="20">Hunan Chicken *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Szechuan Chicken *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken in Spicy Garlic Sauce *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Cashew Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Moo Goo Gai Pan</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Lemon Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Broccoli Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Kung Pao Chicken *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Black Bean Sauce</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Mixed Vegetables</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Eggplant *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Mongolian Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Teriyaki Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Curry Sauce *</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Honey Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Garlic Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Almond Fried Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sweet &amp; Sour Chicken</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
-        	      <td width="550" height="20">Hawaiin Chicken</td>
-                    <td width="100" align="right">8.45</td>
+        	      <td width="550" height="20">Hawaii Chicken</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with String Beans</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Snow Peas</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken with Asparagus</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">King Spring Chicken *</td>
@@ -321,35 +325,35 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Spicy Shredded Pork with Eggplant *</td>
-                  <td align="right" width="100">7.85</td>
+                  <td align="right" width="100">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Twice Cooked Pork *</td>
-                  <td width="100" align="right">7.85</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shredded Pork in Garlic Sauce *</td>
-                  <td width="100" align="right">7.85</td>
+                  <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Pork with Black Bean Sauce</td>
-                    <td width="100" align="right">7.85</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Roast Pork with Broccoli</td>
-                    <td width="100" align="right">7.85</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sweet &amp; Sour Pork</td>
-                    <td width="100" align="right">7.85</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Moo Shu Pork</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Pork with String Beans</td>
-                    <td width="100" align="right">8.35</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
        	      </table>
         	    <br />
@@ -358,36 +362,36 @@
        	      </div>
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
-        	      <td height="20" width="550">Eggplant with    Garlic Sauce *</td>
-                  <td align="right" width="100">6.75</td>
+        	      <td height="20" width="550">Eggplant with Garlic Sauce *</td>
+                  <td align="right" width="100">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sauteed Assorted Vegetables</td>
-                    <td width="100" align="right">6.75</td>
+                    <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Bean Curd with Hot &amp; Spicy Sauce *</td>
-                  <td width="100" align="right">6.75</td>
+                  <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Hunan Tofu *</td>
-                  <td width="100" align="right">6.75</td>
+                  <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Broccoli with Garlic Sauce *</td>
-                  <td width="100" align="right">6.75</td>
+                  <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sauteed Tofu with Vegetables</td>
-                    <td width="100" align="right">6.75</td>
+                    <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sauteed String Beans</td>
-                    <td width="100" align="right">6.95</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Moo Shu with Vegetables</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
        	      </table>
         	    <br />
@@ -397,67 +401,67 @@
        	      <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Teriyaki Shrimp</td>
-                    <td align="right" width="100">9.45</td>
+                    <td align="right" width="100">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Kung Pao Shrimp *</td>
-                  <td width="100" align="right">9.45</td>
+                  <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Szechuan Shrimp *</td>
-                  <td width="100" align="right">9.45</td>
+                  <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp with Mixed Vegetables</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Fish Fillets in Hunan Sauce</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp in Lobster Sauce</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Hunan Shrimp *</td>
-                  <td width="100" align="right">9.45</td>
+                  <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Broccoli Shrimp</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp in Garlic Sauce *</td>
-                  <td width="100" align="right">9.45</td>
+                  <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Cashew Nuts Shrimp</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Moo Shu with Shrimp</td>
-                    <td width="100" align="right">9.55</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sweet &amp; Sour Shrimp</td>
-                    <td width="100" align="right">9.45</td>
+                    <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp with String Beans</td>
-                    <td width="100" align="right">9.75</td>
+                    <td width="100" align="right">9.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp with Snow Peas</td>
-                    <td width="100" align="right">9.75</td>
+                    <td width="100" align="right">9.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp with Asparagus</td>
-                    <td width="100" align="right">9.75</td>
+                    <td width="100" align="right">9.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp &amp; Scallops in Garlic Sauce *</td>
-                  <td width="100" align="right">9.95</td>
+                  <td width="100" align="right">10.95</td>
                 </tr>
        	      </table>
         	    <br />
@@ -467,31 +471,31 @@
        	      <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Vegetables Mei Fun</td>
-                    <td align="right" width="100">6.75</td>
+                    <td align="right" width="100">7.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Roast Pork Mei Fun</td>
-                    <td width="100" align="right">7.15</td>
+                    <td width="100" align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Chicken Mei Fun</td>
-                    <td width="100" align="right">7.15</td>
+                    <td width="100" align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Shrimp Mei Fun</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef Mei Fun</td>
-                    <td width="100" align="right">8.15</td>
+                    <td width="100" align="right">8.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">House Special Mei Fun</td>
-                    <td width="100" align="right">8.45</td>
+                    <td width="100" align="right">8.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Singapore Mei Fun *</td>
-                  <td width="100" align="right">8.45</td>
+                  <td width="100" align="right">8.95</td>
                 </tr>
        	      </table>
         	    <br />
@@ -501,27 +505,27 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Vegetable Lo Mein</td>
-                    <td align="right" width="100">6.45</td>
+                    <td align="right" width="100">7.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken Lo Mein</td>
-                  <td width="100" align="right">7.15</td>
+                  <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Roast Pork Lo Mein</td>
-                  <td width="100" align="right">7.15</td>
+                  <td width="100" align="right">7.55</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp Lo Mein</td>
-                  <td width="100" align="right">7.45</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef Lo Mein</td>
-                  <td width="100" align="right">7.45</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">House Special Lo Mein</td>
-                  <td width="100" align="right">8.15</td>
+                  <td width="100" align="right">8.25</td>
                 </tr>
        	      </table>
         	    <br />
@@ -529,28 +533,28 @@
                 <p align="center">Served with Steamed Rice or Brown Rice ($1.00).</p></div>
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
-        	      <td height="20" width="550">Vegetable Egg Foo    Young</td>
-                    <td align="right" width="100">6.95</td>
+        	      <td height="20" width="550">Vegetable Egg Foo Young</td>
+                    <td align="right" width="100">7.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken Egg Foo Young</td>
-                  <td width="100" align="right">7.65</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Roast Pork Egg Foo Young</td>
-                  <td width="100" align="right">7.65</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef Egg Foo Young</td>
-                  <td width="100" align="right">7.95</td>
+                  <td width="100" align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp Egg Foo Young</td>
-                  <td width="100" align="right">7.95</td>
+                  <td width="100" align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">House Egg Foo Young</td>
-                  <td width="100" align="right">7.95</td>
+                  <td width="100" align="right">8.15</td>
                 </tr>
        	      </table>
         	    <br />
@@ -559,27 +563,27 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="245">Vegetable Chow Mein</td>
-                    <td align="right" width="75">6.95</td>
+                    <td align="right" width="75">7.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken Chow Mein</td>
-                    <td align="right">7.65</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Roast Pork Chow Mein</td>
-                  <td width="100" align="right">7.65</td>
+                  <td width="100" align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Beef Chow Mein</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp Chow Mein</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">House Chow Mein</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
        	      </table>
         	    <br />
@@ -591,27 +595,27 @@
         	    <col width="75" />
         	    <tr height="20">
         	      <td height="20" width="245">Vegetable Fried Rice</td>
-                    <td align="right" width="75">6.2</td>
+                    <td align="right" width="75">6.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken Fried Rice</td>
-                    <td align="right">6.7</td>
-                </tr>
-        	    <tr height="20">
-        	      <td height="20">Roast Pork Fried Rice</td>
-                    <td align="right">6.7</td>
-                </tr>
-        	    <tr height="20">
-        	      <td width="550" height="20">Beef Fried Rice</td>
-                    <td width="100" align="right">7.15</td>
-                </tr>
-        	    <tr height="20">
-        	      <td height="20">Shrimp Fried Rice</td>
                     <td align="right">7.15</td>
                 </tr>
         	    <tr height="20">
+        	      <td height="20">Roast Pork Fried Rice</td>
+                    <td align="right">7.15</td>
+                </tr>
+        	    <tr height="20">
+        	      <td width="550" height="20">Beef Fried Rice</td>
+                    <td width="100" align="right">7.45</td>
+                </tr>
+        	    <tr height="20">
+        	      <td height="20">Shrimp Fried Rice</td>
+                    <td align="right">7.45</td>
+                </tr>
+        	    <tr height="20">
         	      <td height="20">House Fried Rice</td>
-                    <td align="right">7.7</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	       <td height="20">Yang Chow Fried Rice</td>
@@ -619,7 +623,7 @@
                 </tr>
        	      </table>
         	    <br />
-        	    <div id="chefspecials"><h2>Chef Specials</h2>
+        	    <div id="chefspecials"><h2>Chef's Specials</h2>
                     <p align="center">Served with Steamed Rice or Brown Rice ($1.00).</p>
         	      <p align="center"><img src="images/food/seafoodinbirdsnest.jpg" width="400" height="150" /></p>
        	      </div>
@@ -627,15 +631,15 @@
         	    <tr height="20">
         	      <td height="20" width="245">Mango Chicken<br />
        	          <p>Tender sauteed chicken with fresh mango and mixed vegetables in a special sauce.</p></td>
-                    <td align="right" width="75">9.15</td>
+                    <td align="right" width="75">9.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">General Tso's Chicken *</td>
-                    <td align="right">9.65</td>
+                    <td align="right">9.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sesame Chicken</td>
-                    <td align="right">9.65</td>
+                    <td align="right">9.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Dragon &amp; Phoenix<br />
@@ -667,7 +671,7 @@
                 </tr>
         	    <tr height="20">
         	      <td height="20">Mango Shrimp</td>
-                    <td align="right">10.95</td>
+                    <td align="right">11.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Triple Delicacies</td>
@@ -675,7 +679,7 @@
                 </tr>
         	    <tr height="20">
         	      <td height="20">Golden Crispy Shrimp</td>
-                    <td align="right">10.95</td>
+                    <td align="right">11.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Happy Family</td>
@@ -683,11 +687,11 @@
                 </tr>
         	    <tr height="20">
         	      <td height="20">Tangerine Shrimp</td>
-                    <td align="right">10.95</td>
+                    <td align="right">11.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sesame Shrimp</td>
-                    <td align="right">10.95</td>
+                    <td align="right">11.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Spicy Basil Chicken *</td>
@@ -696,24 +700,26 @@
         	    <tr height="20">
         	      <td height="20">Salt &amp; Pepper Fried Shrimp *
        	          <p>Marinated fried jumbo shrimp with onions, green peppers, and chili.</p></td>
-                    <td align="right">10.95</td>
+                    <td align="right">11.95</td>
                 </tr>
+                <!--
         	    <tr height="20">
         	      <td height="20">Seafood In Bird's Nest<br />
        	          <p>A combination of seafood that includes lobster, shrimp, scallops, stir fried with assorted vegetables in a savory white sauce, on top of a crunchy nest.</p><br /></td>
-                    <td align="right">12.95</td>
+                    <td align="right">13.95</td>
                 </tr>
+                -->
         	    <tr height="20">
         	      <td height="20">Seafood Delight</td>
-                    <td align="right">12.95</td>
+                    <td align="right">13.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Crispy Duck (Half) (With Bone)</td>
-                    <td align="right">12.95</td>
+                    <td align="right">15.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beijing Duck (Half)</td>
-                    <td align="right">13.95</td>
+                    <td align="right">15.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beijing Duck (Whole)<br />
@@ -729,91 +735,91 @@
         	    <col width="75" />
         	    <tr height="20">
         	      <td height="20" width="245">Mongolian Chicken</td>
-                    <td align="right" width="75">7.15</td>
+                    <td align="right" width="75">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Terikyaki Chicken</td>
-                    <td width="100" align="right">7.15</td>
+                    <td width="100" align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken with Broccoli</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sweet &amp; Sour Chicken</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Hunan Chicken *</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Szechuan Chicken *</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Kung Pao Chicken *</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Almond Fried Chicken</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef with Broccoli</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef with Garlic Sauce *</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Pepper Steak</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Lo Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Mongolian Beef</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Teriyaki Beef</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Roast Pork with Broccoli</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Moo Goo Gai Pan</td>
-                    <td align="right">7.15</td>
+                    <td align="right">7.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">General Tso's Chicken *</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sesame Chicken</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sweet &amp; Sour Shrimp</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp with Lobster Sauce</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp with Vegetables</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Boneless Spare Ribs</td>
-                    <td align="right">7.45</td>
+                    <td align="right">7.75</td>
                 </tr>
        	      </table>
         	    <br />
@@ -821,31 +827,31 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="245">Steamed Green Triple Delight</td>
-                    <td align="right" width="75">6.95</td>
+                    <td align="right" width="75">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Steamed Tofu with Vegetables</td>
-                    <td align="right">6.95</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Steamed Assorted Vegetables</td>
-                    <td align="right">6.95</td>
+                    <td align="right">7.95</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Steamed Chicken with Vegetables</td>
-                    <td align="right">8.15</td>
+                    <td align="right">8.55</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Steamed Shrimp with Vegetables</td>
-                  <td width="100" align="right">9.45</td>
+                  <td width="100" align="right">9.75</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp &amp; Scallops with Vegetables</td>
-                    <td align="right">9.95</td>
+                    <td align="right">10.95</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Steamed Scallop with Vegetables</td>
-                    <td align="right">9.95</td>
+                    <td align="right">10.95</td>
                 </tr>
        	      </table>
         	  <br />
@@ -882,23 +888,23 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="550">Buffalo Wings *</td>
-                    <td align="right" width="75">7.95</td>
+                    <td align="right" width="75">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Lemon Peppers Wings</td>
-                  <td width="100" align="right">7.95</td>
+                  <td width="100" align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Braised Chicken Wings</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Honey BBQ Wings</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Boneless Chicken Wings</td>
-                    <td align="right">7.95</td>
+                    <td align="right">8.15</td>
                 </tr>
        	      </table>
         	    <br />
@@ -907,163 +913,163 @@
         	    <table align="center" cellpadding="0" cellspacing="0">
         	    <tr height="20">
         	      <td height="20" width="245">General Tso's Chicken *</td>
-                    <td align="right" width="75">5.35</td>
+                    <td align="right" width="75">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td width="550" height="20">Sesame Chicken</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Kung Pao Chicken *</td>
-                  <td width="100" align="right">5</td>
+                  <td width="100" align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Mongolian Chicken</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Teriyaki Chicken</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sweet &amp; Sour Chicken</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Moo Goo Gai Pan</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Hunan Chicken *</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Cashew Nuts Chicken</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken with Broccoli</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Almond Fried Chicken</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Szechuan Chicken *</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken with Vegetables</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken in Garlic Sauce *</td>
-                    <td align="right">5</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp with Mixed Vegetables</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sweet &amp; Sour Shrimp</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Szechuan Shrimp *</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp in Lobster Sauce</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp in Garlic Sauce *</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Shrimp with Broccoli</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Hunan Shrimp *</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Kung Pao Shrimp *</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Mongolian Beef</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Teriyaki Beef</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef with Broccoli</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Pepper Steak</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Szechuan Beef *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Hunan Beef *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Beef with Vegetables</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Kung Pao Beef *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Sweet &amp; Sour Pork</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Pork with Garlic Sauce *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Lo Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Fried Rice (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chow Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Fried Chicken Wings</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Seafood Noodles</td>
-                    <td align="right">6.45</td>
+                    <td align="right">6.50</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Spicy Basil Chicken *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">Chicken Strips *</td>
-                    <td align="right">5.15</td>
+                    <td align="right">5.25</td>
                 </tr>
         	    <tr height="20">
         	      <td height="20">King Spring Chicken *</td>
-                    <td align="right">5.35</td>
+                    <td align="right">5.25</td>
                 </tr>
        	      </table>
         	    <br />
