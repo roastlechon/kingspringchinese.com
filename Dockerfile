@@ -37,9 +37,9 @@ CMD ["/sbin/my_init"]
 
 RUN rm -f /etc/service/nginx/down
 
-ADD ./nginx/webapp.conf /etc/nginx/sites-enabled/webapp.conf
+ADD nginx/webapp.conf /etc/nginx/sites-enabled/webapp.conf
 RUN mkdir -p /home/app/webapp/public
-ADD ./dist/client/* /home/app/webapp/public/
+ADD dist/public /home/app/webapp/
 
 
 # Clean up APT when done.

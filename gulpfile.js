@@ -31,10 +31,10 @@ gulp.task('copy', ['clean'], function () {
   return es.concat(
     // update index.html to work when built
     gulp.src(['src/client/index.html'])
-      .pipe(gulp.dest('dist/client')),
+      .pipe(gulp.dest('dist/public')),
     // copy assets
     gulp.src(['src/assets/**/*'])
-      .pipe(gulp.dest('dist/client'))
+      .pipe(gulp.dest('dist/public'))
   );
 });
 
@@ -48,7 +48,7 @@ gulp.task('sass', ['copy'], function() {
         showStack: true
       });
     }))
-    .pipe(gulp.dest('dist/client/css'));
+    .pipe(gulp.dest('dist/public/css'));
 });
 
 // Scripts
@@ -73,7 +73,7 @@ gulp.task('scripts', ['copy'], function() {
         }
       }
     }))
-    .pipe(gulp.dest('dist/client/js'));
+    .pipe(gulp.dest('dist/public/js'));
 });
 
 // Update bower, component, npm at once:
