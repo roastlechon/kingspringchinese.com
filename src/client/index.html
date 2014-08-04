@@ -1,0 +1,1559 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>King Spring Chinese Restaurant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+	<style>		
+		.kscr-navbar {
+			text-align: center;
+		}
+		.kscr-navbar > li {
+			padding: 0;
+		}
+		.kscr-navbar > li > a {
+			display: block;
+			text-align: center;
+			padding: 20px 0;
+			font-size: 1.6em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #fafafa;
+		}
+
+		.kscr-navbar > li > a:hover {
+			color: #f8f8f8;
+			background: rgba(255, 255, 255, .05);
+			font-weight: bold;
+		}
+
+		.page-header {
+			margin-top: 0;
+			background: #630f16;
+		}
+
+		.page-content {
+			padding-bottom: 9px;
+			margin: 40px 0 20px;
+			border-bottom: 1px solid #eee;
+		}
+		
+		.nav > li > a {
+			padding: 5px 8px;
+		}
+	</style>
+</head>
+<body>
+	<div id="top" class="page-header">
+		<div class="container">
+			<h1><a href=""><img class="center-block" src="/images/logo2.png" alt="King Spring Chinese Restaurant"></a></h1>
+			<div class="center-block">
+				<ul class="list-unstyled row kscr-navbar">
+					<li class="col-xs-12 col-md-3"><a href="/">Home</a></li>
+					<li class="col-xs-12 col-md-3"><a href="#menu" du-smooth-scroll>Menu</a></li>
+					<li class="col-xs-12 col-md-3"><a href="#contact-hours" du-smooth-scroll>Hours</a></li>
+					<li class="col-xs-12 col-md-3"><a href="#contact-hours" du-smooth-scroll>Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+					<img src="/images/kscr-inside-photo.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+					<h1>King Spring Chinese Restaurant</h1>
+					<p class="lead">We deliver awesome Chinese cuisine. Utilizing the freshest ingredients possible, we create dishes that appeal to all tastes!</p>
+					<p class="lead">Contact us for delivery, take out, dining in, and catering!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="menu" class="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+					<div class="visible-md visible-sm visible-xs">
+						<h2 class="text-center">Menu</h2>
+						<ul class="list-inline text-center">
+							<li du-scrollspy="appetizers"><a href="#appetizers" du-smooth-scroll>Appetizers</a></li>
+							<li du-scrollspy="soups"><a href="#soups" du-smooth-scroll>Soups</a></li>
+							<li du-scrollspy="beef"><a href="#beef" du-smooth-scroll>Beef</a></li>
+							<li du-scrollspy="chicken"><a href="#chicken" du-smooth-scroll>Chicken</a></li>
+							<li du-scrollspy="pork"><a href="#pork" du-smooth-scroll>Pork</a></li>
+							<li du-scrollspy="seafood"><a href="#seafood" du-smooth-scroll>Seafood</a></li>
+							<li du-scrollspy="meifun"><a href="#meifun" du-smooth-scroll>Mei Fun</a></li>
+							<li du-scrollspy="lomein"><a href="#lomein" du-smooth-scroll>Lo Mein</a></li>
+							<li du-scrollspy="eggfooyoung"><a href="#eggfooyoung" du-smooth-scroll>Egg Foo Young</a></li>
+							<li du-scrollspy="chowmein"><a href="#chowmein" du-smooth-scroll>Chow Mein</a></li>
+							<li du-scrollspy="friedrice"><a href="#friedrice" du-smooth-scroll>Fried Rice</a></li>
+							<li du-scrollspy="chefsspecials"><a href="#chefsspecials" du-smooth-scroll>Chef's Specials</a></li>
+							<li du-scrollspy="spacuisine"><a href="#spacuisine" du-smooth-scroll>Spa Cuisine</a></li>
+							<li du-scrollspy="chickenwings"><a href="#chickenwings" du-smooth-scroll>Chicken Wings</a></li>
+							<li du-scrollspy="wingcombinations"><a href="#wingcombinations" du-smooth-scroll>Wing Combinations</a></li>
+							<li du-scrollspy="dinnercombinations"><a href="#dinnercombinations" du-smooth-scroll>Dinner Combinations</a></li>
+							<li du-scrollspy="lunchspecials"><a href="#lunchspecials" du-smooth-scroll>Lunch Specials</a></li>
+						</ul>
+					</div>
+					<div class="row" id="appetizers">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/crabrangoon.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Appetizers</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Egg Roll (2) (Pork)</td>
+										<td>2.20</td>
+									</tr>
+									<tr>
+										<td>King Spring Roll (2) (Shrimp)</td>
+										<td>3.00</td>
+									</tr>
+									<tr>
+										<td>Vegetable Spring Roll (2)</td>
+										<td>2.20</td>
+									</tr>
+									<tr>
+										<td>Beef Sticks (4)</td>
+										<td>5.15</td>
+									</tr>
+									<tr>
+										<td>Chicken Sticks (4)</td>
+										<td>4.95</td>
+									</tr>
+									<tr>
+										<td>Boneless Spareribs (4)</td>
+										<td>6.70</td>
+									</tr>
+									<tr>
+										<td>Bar-B-Q Spareribs (4)</td>
+										<td>6.95</td>
+									</tr>
+									<tr>
+										<td>Crab Rangoon (6)</td>
+										<td>4.25</td>
+									</tr>
+									<tr>
+										<td>Potstickers (6) (Steam/Pan Fried)</td>
+										<td>4.75</td>
+									</tr>
+									<tr>
+										<td>Fried Chicken Wings (8)</td>
+										<td>5.15</td>
+									</tr>
+									<tr>
+										<td>French Fries</td>
+										<td>3.50</td>
+									</tr>
+									<tr>
+										<td>Buffalo Wings (8) *</td>
+										<td>5.15</td>
+									</tr>
+									<tr>
+										<td>Lemon Peppers Wings (8)</td>
+										<td>5.15</td>
+									</tr>
+									<tr>
+										<td>Braised Wings (8)</td>
+										<td>5.15</td>
+									</tr>
+									<tr>
+										<td>Fried Jumbo Shrimp (4)</td>
+										<td>3.50</td>
+									</tr>
+									<tr>
+										<td>Fried Wontons (6)</td>
+										<td>3.50</td>
+									</tr>
+									<tr>
+										<td>Chinese Donuts (10)</td>
+										<td>3.75</td>
+									</tr>
+									<tr>
+										<td>Pu Pu Platter</td>
+										<td>10.50</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="soups">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/eggdropsoup.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Soups</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-6">
+									<col class="col-lg-3">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price (Small) ($)</th>
+										<th>Price (Large) ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Wonton Soup</td>
+										<td>1.60</td>
+										<td>2.95</td>
+									</tr>
+									<tr>
+										<td>Hot &amp; Sour Soup *</td>
+										<td>1.85</td>
+										<td>3.50</td>
+									</tr>
+									<tr>
+										<td>Egg Drop Soup</td>
+										<td>1.60</td>
+										<td>2.95</td>
+									</tr>
+									<tr>
+										<td>Vegetable Soup</td>
+										<td>1.60</td>
+										<td>2.95</td>
+									</tr>
+									<tr>
+										<td>Sizzling Rice Soup</td>
+										<td>2.45</td>
+										<td>4.50</td>
+									</tr>
+									<tr>
+										<td>Dragon Soup</td>
+										<td>2.25</td>
+										<td>4.25</td>
+									</tr>
+									<tr>
+										<td>Chicken Noodle Soup</td>
+										<td>1.85</td>
+										<td>3.50</td>
+									</tr>
+									<tr>
+										<td>House Special Soup (2)</td>
+										<td></td>
+										<td>5.95</td>
+									</tr>
+									<tr>
+										<td>Seafood Sizzling Rice Soup (2)</td>
+										<td></td>
+										<td>6.25</td>
+									</tr>
+									<tr>
+										<td>Coconut Milk Soup</td>
+										<td></td>
+										<td>3.95</td>
+									</tr>
+									<tr>
+										<td>Seafood Noodle Soup</td>
+										<td></td>
+										<td>6.50</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="beef">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/peppersteak.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Beef</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Fresh Mushroom Beef</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Mongolian Beef</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Beef with Vegetables</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Broccoli Beef</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Pepper Steak</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Beef in Garlic Sauce *</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Hunan Beef *</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Szechuan Beef *</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Teriyaki Beef</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Beef with Bamboo Shoots &amp; Black Mushrooms</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Beef *</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Moo Shu Beef</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Hawaii Beef</td>
+										<td>9.25</td>
+									</tr>
+									<tr>
+										<td>Beef with String Beans</td>
+										<td>9.25</td>
+									</tr>
+									<tr>
+										<td>Beef with Asparagus</td>
+										<td>9.25</td>
+									</tr>
+									<tr>
+										<td>Beef with Snow Peas</td>
+										<td>9.25</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="chicken">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/hunanchicken.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Chicken</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Hunan Chicken *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Szechuan Chicken *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Chicken in Spicy Garlic Sauce *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Cashew Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Moo Goo Gai Pan</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Lemon Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Broccoli Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Chicken *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Chicken with Black Bean Sauce</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Chicken with Mixed Vegetables</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Chicken with Eggplant *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Mongolian Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Teriyaki Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Chicken with Curry Sauce *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Honey Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Garlic Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Almond Fried Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Chicken</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Hawaii Chicken</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Chicken with String Beans</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Chicken with Snow Peas</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Chicken with Asparagus</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>King Spring Chicken *</td>
+										<td>8.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="pork">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Pork</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Spicy Shredded Pork with Eggplant *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Twice Cooked Pork *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Shredded Pork in Garlic Sauce *</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Pork with Black Bean Sauce</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Roast Pork with Broccoli</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Pork</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Moo Shu Pork</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Pork with String Beans</td>
+										<td>8.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="vegetables">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Vegetables</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Eggplant with Garlic Sauce *</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Sauteed Assorted Vegetables</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Bean Curd with Hot &amp; Spicy Sauce *</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Hunan Tofu *</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Broccoli with Garlic Sauce *</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Sauteed Tofu with Vegetables</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Sauteed String Beans</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Moo Shu with Vegetables</td>
+										<td>8.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="seafood">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/seafoodinbirdsnest.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Seafood</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Teriyaki Shrimp</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Shrimp *</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Szechuan Shrimp *</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Mixed Vegetables</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Fish Fillets in Hunan Sauce</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp in Lobster Sauce</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Hunan Shrimp *</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Broccoli Shrimp</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp in Garlic Sauce *</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Cashew Nuts Shrimp</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Moo Shu with Shrimp</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Shrimp</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp with String Beans</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Snow Peas</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Asparagus</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>Shrimp &amp; Scallops in Garlic Sauce *</td>
+										<td>10.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="meifun">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/singaporemeifun.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Mei Fun</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Vegetables Mei Fun</td>
+										<td>7.25</td>
+									</tr>
+									<tr>
+										<td>Roast Pork Mei Fun</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Chicken Mei Fun</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp Mei Fun</td>
+										<td>8.25</td>
+									</tr>
+									<tr>
+										<td>Beef Mei Fun</td>
+										<td>8.25</td>
+									</tr>
+									<tr>
+										<td>House Special Mei Fun</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Singapore Mei Fun *</td>
+										<td>8.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="lomein">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/shrimplomein.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h3>Lo Mein</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Vegetable Lo Mein</td>
+										<td>7.25</td>
+									</tr>
+									<tr>
+										<td>Chicken Lo Mein</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Roast Pork Lo Mein</td>
+										<td>7.55</td>
+									</tr>
+									<tr>
+										<td>Shrimp Lo Mein</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Beef Lo Mein</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>House Special Lo Mein</td>
+										<td>8.25</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="eggfooyoung">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h3>Egg Foo Young</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Vegetable Egg Foo Young</td>
+										<td>7.25</td>
+									</tr>
+									<tr>
+										<td>Chicken Egg Foo Young</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Roast Pork Egg Foo Young</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Beef Egg Foo Young</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Shrimp Egg Foo Young</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>House Egg Foo Young</td>
+										<td>8.15</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="chowmein">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Chow Mein</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Vegetable Chow Mein</td>
+										<td>7.25</td>
+									</tr>
+									<tr>
+										<td>Chicken Chow Mein</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Roast Pork Chow Mein</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Beef Chow Mein</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Shrimp Chow Mein</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>House Chow Mein</td>
+										<td>8.15</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="friedrice">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/friedrice.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Fried Rice</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Vegetable Fried Rice</td>
+										<td>6.95</td>
+									</tr>
+									<tr>
+										<td>Chicken Fried Rice</td>
+										<td>7.15</td>
+									</tr>
+									<tr>
+										<td>Roast Pork Fried Rice</td>
+										<td>7.15</td>
+									</tr>
+									<tr>
+										<td>Beef Fried Rice</td>
+										<td>7.45</td>
+									</tr>
+									<tr>
+										<td>Shrimp Fried Rice</td>
+										<td>7.45</td>
+									</tr>
+									<tr>
+										<td>House Fried Rice</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Yang Chow Fried Rice</td>
+										<td>8.15</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="chefsspecials">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Chef's Specials</h2>
+							<p class="help-block">Served with Steamed Rice or Brown Rice ($1.00).</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											Mango Chicken<br>
+											<small>Tender sauteed chicken with fresh mango and mixed vegetables in a special sauce.</small>
+										</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>General Tso's Chicken *</td>
+										<td>9.50</td>
+									</tr>
+									<tr>
+										<td>Sesame Chicken</td>
+										<td>9.50</td>
+									</tr>
+									<tr>
+										<td>
+											Dragon &amp; Phoenix<br>
+											<small>Assorted vegetables with sauteed shrimp in a savory white sauce and lightly battered chunks of chicken fried in a hot and spicy sauce.</small>
+										</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>Triple Mongolian<br>
+											<small>Combination of chicken, beef, and shrimp stir fried.</small>
+										</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>Four Season<br>
+											<small>Shrimp, chicken, beef, and pork with Chinese vegetables.</small>
+										</td>
+										<td>9.95</td>
+									</tr>
+									<tr>
+										<td>King Spring Chicken *</td>
+										<td>8.95</td>
+									</tr>
+									<tr>
+										<td>Walnut Shrimp</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>
+											Tangerine Beef<br>
+											<small>Tender marinated beef lightly battered and fried, then stir fried with dried orange peels in a hot, spicy, sweet sauce.</small>
+										</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>Mango Shrimp</td>
+										<td>11.95</td>
+									</tr>
+									<tr>
+										<td>Triple Delicacies</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>Golden Crispy Shrimp</td>
+										<td>11.95</td>
+									</tr>
+									<tr>
+										<td>Happy Family</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>Tangerine Shrimp</td>
+										<td>11.95</td>
+									</tr>
+									<tr>
+										<td>Sesame Shrimp</td>
+										<td>11.95</td>
+									</tr>
+									<tr>
+										<td>Spicy Basil Chicken *</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>
+											Salt &amp; Pepper Fried Shrimp *<br>
+											<small>Marinated fried jumbo shrimp with onions, green peppers, and chili.</small>
+										</td>
+										<td>11.95</td>
+									</tr>
+									<tr>
+										<td>Seafood Delight</td>
+										<td>13.95</td>
+									</tr>
+									<tr>
+										<td>Crispy Duck (Half) (With Bone)</td>
+										<td>15.95</td>
+									</tr>
+									<tr>
+										<td>Beijing Duck (Half)</td>
+										<td>15.95</td>
+									</tr>
+									<tr>
+										<td>
+											Beijing Duck (Whole)<br>
+											<small>The irresistible classic Chinese treatment of succulent meat &amp; crispy skin, served with traditional thin Chinese pancakes.</small>
+										</td>
+										<td>25.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="spacuisine">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Spa Cuisine</h2>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Steamed Green Triple Delight</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Steamed Tofu with Vegetables</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Steamed Assorted Vegetables</td>
+										<td>7.95</td>
+									</tr>
+									<tr>
+										<td>Steamed Chicken with Vegetables</td>
+										<td>8.55</td>
+									</tr>
+									<tr>
+										<td>Steamed Shrimp with Vegetables</td>
+										<td>9.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp &amp; Scallops with Vegetables</td>
+										<td>10.95</td>
+									</tr>
+									<tr>
+										<td>Steamed Scallop with Vegetables</td>
+										<td>10.95</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="chickenwings">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Chicken Wings</h2>
+							<p class="help-block">Served with Blue Cheese/Ranch &amp; Celery</p>
+							<p class="help-block"><strong>Flavors:</strong> Regular, Buffalo, Braised, Honey BBQ, Lemon Pepper</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>10pcs</td>
+										<td>6.25</td>
+									</tr>
+									<tr>
+										<td>15pcs</td>
+										<td>9.35</td>
+									</tr>
+									<tr>
+										<td>20pcs</td>
+										<td>12.50</td>
+									</tr>
+									<tr>
+										<td>30pcs</td>
+										<td>18.75</td>
+									</tr>
+									<tr>
+										<td>50pcs</td>
+										<td>31.25</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="wingcombinations">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs">
+							<img src="/images/food/wingcombinationbraised.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Wing Combinations</h2>
+							<p class="help-block">Served with an Egg Roll and Fried Rice (Shrimp, Chicken, Beef, Pork, Vegatable)/Steamed Rice/Brown Rice ($1.00)</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Buffalo Wings *</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Lemon Peppers Wings</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Braised Chicken Wings</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Honey BBQ Wings</td>
+										<td>8.15</td>
+									</tr>
+									<tr>
+										<td>Boneless Chicken Wings</td>
+										<td>8.15</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="dinnercombinations">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Dinner Combinations</h2>
+							<p class="help-block">Served with Fried Rice/Steamed Rice/Brown Rice ($1.00), Egg Roll, and Chicken Wing</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Mongolian Chicken</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Terikyaki Chicken</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Chicken with Broccoli</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Chicken</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Hunan Chicken *</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Szechuan Chicken *</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Chicken *</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Almond Fried Chicken</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Beef with Broccoli</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Beef with Garlic Sauce *</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Pepper Steak</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Lo Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Mongolian Beef</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Teriyaki Beef</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Roast Pork with Broccoli</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>Moo Goo Gai Pan</td>
+										<td>7.50</td>
+									</tr>
+									<tr>
+										<td>General Tso's Chicken *</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Sesame Chicken</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Shrimp</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Lobster Sauce</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Vegetables</td>
+										<td>7.75</td>
+									</tr>
+									<tr>
+										<td>Boneless Spare Ribs</td>
+										<td>7.75</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row" id="lunchspecials">
+						<div class="col-lg-5 col-md-5 col-sm-6 hidden-xs"></div>
+						<div class="col-lg-7 col-md-7 col-sm-6">
+							<h2>Lunch Specials</h2>
+							<p class="help-block">Served with Fried Rice/Steamed Rice/Brown Rice ($1.00), Vegetable Egg Roll, and a Crab Rangoon</p>
+							<table class="table">
+								<colgroup>
+									<col class="col-lg-9">
+									<col class="col-lg-3">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Menu Item</th>
+										<th>Price ($)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>General Tso's Chicken *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Sesame Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Chicken *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Mongolian Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Teriyaki Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Moo Goo Gai Pan</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Hunan Chicken *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Cashew Nuts Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Chicken with Broccoli</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Almond Fried Chicken</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Szechuan Chicken *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Chicken with Vegetables</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Chicken in Garlic Sauce *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Mixed Vegetables</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Shrimp</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Szechuan Shrimp *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Shrimp in Lobster Sauce</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Shrimp in Garlic Sauce *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Shrimp with Broccoli</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Hunan Shrimp *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Shrimp *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Mongolian Beef</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Teriyaki Beef</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Beef with Broccoli</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Pepper Steak</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Szechuan Beef *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Hunan Beef *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Beef with Vegetables</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Kung Pao Beef *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Sweet &amp; Sour Pork</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Pork with Garlic Sauce *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Lo Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Fried Rice (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Chow Mein (Chicken, Shrimp, Pork, Beef, or Vegetable)</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Fried Chicken Wings</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Seafood Noodles</td>
+										<td>6.50</td>
+									</tr>
+									<tr>
+										<td>Spicy Basil Chicken *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>Chicken Strips *</td>
+										<td>5.25</td>
+									</tr>
+									<tr>
+										<td>King Spring Chicken *</td>
+										<td>5.25</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="visible-md visible-sm visible-xs">
+						<ul class="list-inline text-center">
+							<li du-scrollspy="appetizers"><a href="#appetizers" du-smooth-scroll>Appetizers</a></li>
+							<li du-scrollspy="soups"><a href="#soups" du-smooth-scroll>Soups</a></li>
+							<li du-scrollspy="beef"><a href="#beef" du-smooth-scroll>Beef</a></li>
+							<li du-scrollspy="chicken"><a href="#chicken" du-smooth-scroll>Chicken</a></li>
+							<li du-scrollspy="pork"><a href="#pork" du-smooth-scroll>Pork</a></li>
+							<li du-scrollspy="seafood"><a href="#seafood" du-smooth-scroll>Seafood</a></li>
+							<li du-scrollspy="meifun"><a href="#meifun" du-smooth-scroll>Mei Fun</a></li>
+							<li du-scrollspy="lomein"><a href="#lomein" du-smooth-scroll>Lo Mein</a></li>
+							<li du-scrollspy="eggfooyoung"><a href="#eggfooyoung" du-smooth-scroll>Egg Foo Young</a></li>
+							<li du-scrollspy="chowmein"><a href="#chowmein" du-smooth-scroll>Chow Mein</a></li>
+							<li du-scrollspy="friedrice"><a href="#friedrice" du-smooth-scroll>Fried Rice</a></li>
+							<li du-scrollspy="chefsspecials"><a href="#chefsspecials" du-smooth-scroll>Chef's Specials</a></li>
+							<li du-scrollspy="spacuisine"><a href="#spacuisine" du-smooth-scroll>Spa Cuisine</a></li>
+							<li du-scrollspy="chickenwings"><a href="#chickenwings" du-smooth-scroll>Chicken Wings</a></li>
+							<li du-scrollspy="wingcombinations"><a href="#wingcombinations" du-smooth-scroll>Wing Combinations</a></li>
+							<li du-scrollspy="dinnercombinations"><a href="#dinnercombinations" du-smooth-scroll>Dinner Combinations</a></li>
+							<li du-scrollspy="lunchspecials"><a href="#lunchspecials" du-smooth-scroll>Lunch Specials</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 hidden-md hidden-sm hidden-xs">
+					<h2>Menu</h2>
+					<ul class="nav nav-pills nav-stacked" bs-affix offset-top="-20" offset-bottom="560">
+						<li du-scrollspy="appetizers"><a href="#appetizers" du-smooth-scroll>Appetizers</a></li>
+						<li du-scrollspy="soups"><a href="#soups" du-smooth-scroll>Soups</a></li>
+						<li du-scrollspy="beef"><a href="#beef" du-smooth-scroll>Beef</a></li>
+						<li du-scrollspy="chicken"><a href="#chicken" du-smooth-scroll>Chicken</a></li>
+						<li du-scrollspy="pork"><a href="#pork" du-smooth-scroll>Pork</a></li>
+						<li du-scrollspy="seafood"><a href="#seafood" du-smooth-scroll>Seafood</a></li>
+						<li du-scrollspy="meifun"><a href="#meifun" du-smooth-scroll>Mei Fun</a></li>
+						<li du-scrollspy="lomein"><a href="#lomein" du-smooth-scroll>Lo Mein</a></li>
+						<li du-scrollspy="eggfooyoung"><a href="#eggfooyoung" du-smooth-scroll>Egg Foo Young</a></li>
+						<li du-scrollspy="chowmein"><a href="#chowmein" du-smooth-scroll>Chow Mein</a></li>
+						<li du-scrollspy="friedrice"><a href="#friedrice" du-smooth-scroll>Fried Rice</a></li>
+						<li du-scrollspy="chefsspecials"><a href="#chefsspecials" du-smooth-scroll>Chef's Specials</a></li>
+						<li du-scrollspy="spacuisine"><a href="#spacuisine" du-smooth-scroll>Spa Cuisine</a></li>
+						<li du-scrollspy="chickenwings"><a href="#chickenwings" du-smooth-scroll>Chicken Wings</a></li>
+						<li du-scrollspy="wingcombinations"><a href="#wingcombinations" du-smooth-scroll>Wing Combinations</a></li>
+						<li du-scrollspy="dinnercombinations"><a href="#dinnercombinations" du-smooth-scroll>Dinner Combinations</a></li>
+						<li du-scrollspy="lunchspecials"><a href="#lunchspecials" du-smooth-scroll>Lunch Specials</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact-hours" class="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>Contact</h2>
+					<p class="lead">We hope to hear from you soon!</p>
+					<address>
+						<strong>King Spring Chinese Restaurant</strong><br>
+						3791 South Cobb Drive<br>
+						Smyrna, GA 30080 Suite F<br>
+						<abbr title="Phone">Phone:</abbr> (770)-319-6868<br>
+						<abbr title="Fax">Fax:</abbr> (770) 319-6871
+					</address>	
+				</div>
+				<div class="col-lg-6">
+					<h2>Hours of Operation</h2>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Days</th>
+								<th>Hours</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Monday-Thursday</td>
+								<td>11am-10pm</td>
+							</tr>
+							<tr>
+								<td>Friday &amp; Saturday</td>
+								<td>11am-11pm</td>
+							</tr>
+							<tr>
+								<td>Sunday</td>
+								<td>12pm-10pm</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="list-inline">
+						<li><a href="/">Home</a></li>
+						<li><a href="#menu" du-smooth-scroll>Menu</a></li>
+						<li><a href="#contact-hours" du-smooth-scroll>Hours</a></li>
+						<li><a href="#contact-hours" du-smooth-scroll>Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>
