@@ -38,7 +38,7 @@ CMD ["/sbin/my_init"]
 RUN rm -f /etc/service/nginx/down
 
 ADD ./nginx/webapp.conf /etc/nginx/sites-enabled/webapp.conf
-RUN mkdir /home/app/webapp/public
+RUN mkdir -p /home/app/webapp/public
 ADD ./dist/client/* /home/app/webapp/public/
 
 
