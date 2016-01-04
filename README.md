@@ -2,6 +2,13 @@
 
 Source code for kingspringchinese.com
 
+## Deploying using github-pages
+In the develop branch, make your changes. Then run `gulp deploy`
+
+* `gulp deploy`
+
+Type in password for github repository to push changes
+
 ## Deploying using docker
 Build docker image by first cloning repo.
 
