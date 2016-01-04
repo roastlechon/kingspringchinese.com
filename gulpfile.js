@@ -8,10 +8,19 @@ var es = require('event-stream');
 var sass = require('gulp-ruby-sass');
 var clean = require('gulp-clean');
 var gutil = require('gulp-util');
+var path = require('path');
+var ghPages = require('gulp-gh-pages');
+
+var parseArgs = require('minimist');
+var args = parseArgs(process.argv);
+
+var gitUser = args.user;
+var gitPassword = args.password;
+var repository = 'github.com:roastlechon/kingspringchinese.com.git';
 
 var paths = {
   src: ['src/client/**/*']
-}
+};
 
 var changeEvent = function(evt) {
   gutil.log('File', gutil.colors.cyan(evt.path.replace(new RegExp('/.*(?=/src/client/)/'), '')), 'was', gutil.colors.magenta(evt.type));
@@ -88,6 +97,21 @@ gulp.task('watch', ['scripts'], function() {
   gulp.watch(paths.src, ['scripts']).on('change', function(e) {
     changeEvent(e);
   });
+});
+
+
+gulp.task('deploy', ['scripts'], function () {
+  if (gitUser && gitPassword) {
+    repository = gitUser + ':' + gitPassword + '@' + repository;
+  }
+
+  var options = {
+    remoteUrl: 'https://' + repository,
+    branch: 'master'
+  };
+
+  return gulp.src([path.join('./dist/public/**/*', '**/*')])
+    .pipe(ghPages(options));
 });
 
 // Default

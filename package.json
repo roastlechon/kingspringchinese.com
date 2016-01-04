@@ -8,23 +8,25 @@
     "bower": "latest"
   },
   "devDependencies": {
+    "browserify-shim": "latest",
+    "debowerify": "latest",
     "event-stream": "latest",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
-    "gulp-karma": "latest",
+    "gulp-bower": "latest",
+    "gulp-browserify": "latest",
+    "gulp-bump": "latest",
     "gulp-clean": "latest",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-karma": "latest",
     "gulp-livereload": "latest",
     "gulp-protractor": "latest",
     "gulp-replace": "latest",
-    "gulp-bower": "latest",
-    "gulp-browserify": "latest",
     "gulp-ruby-sass": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "~3.0.0",
+    "minimist": "^1.2.0",
     "tiny-lr": "latest",
-    "underscore": "latest",
-    "debowerify": "latest",
-    "browserify-shim": "latest",
-    "gulp-bump": "latest"
+    "underscore": "latest"
   }
 }
