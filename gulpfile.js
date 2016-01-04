@@ -31,6 +31,8 @@ gulp.task('clean', function() {
 // Copy
 gulp.task('copy', ['clean'], function () {
   return es.concat(
+    gulp.src(['CNAME'])
+      .pipe(gulp.dest('dist/public')),
     // update index.html to work when built
     gulp.src(['src/client/index.html'])
       .pipe(gulp.dest('dist/public')),
