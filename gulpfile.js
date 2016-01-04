@@ -94,12 +94,8 @@ gulp.task('watch', ['scripts'], function() {
 
 
 gulp.task('deploy', ['scripts'], function () {
-  var options = {
-    branch: 'master'
-  };
-
   return gulp.src([path.join('./dist/public/', '**/*')])
-    .pipe(ghPages(options));
+    .pipe(ghPages());
 });
 
 // Default
